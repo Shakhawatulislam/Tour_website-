@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Adventure </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navber">
+    <h1 class="logo">GoGoGo</h1>
+    <ul class="nav-links">
+      <li><a class="active" href="#">Home</a></li>
+      <li><a href="#">Tours</a></li>
+      <li><a href="#">Explores</a></li>
+      <li><a href="#">About</a></li>
+      <li class="ctn"><a href="#">Contacts</a></li>
+    </ul>
+    <img src="menu-btn.png" alt="" class="menu-btn">
+  </nav>
+  <header>
+    <div class="header-content">
+      <h2> Export the world</h2>
+      <div class="line"></div>
+      <h1>The wonderful gift of Allah</h1>
+      <a href="#" class="ctn">Learn mone</a>
+    </div>
+  </header>
+  <section class="events">
+    <div class="title">
+      <h1>Upcoming Events</h1>
+      <div class="line"></div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <img src="img1.png" alt="">
+        <h4>Everest Camp Trip</h4>
+        <p>Ki Likhbo kichui to bujte parchi na. Jai hok, bad dei. Pore nahole Google theke kono kichu copy kore diboni</p>
+        <a href="#" class="ctn">Learn mone</a>
+      </div>
+      <div class="col">
+        <img src="img2.png" alt="">
+        <h4>Walking Holidays</h4>
+        <p>Ki Likhbo, kichui to bujte parchi na. Jai hok, bad dei. Pore nahole Google theke kono kichu copy kore diboni</p>
+        <a href="#" class="ctn">Learn mone</a>
+      </div>
+    </div>
+  </section>
+  
+  <section class="explore">
+    <div class="explore-content">
+    <h1> Explore The World</h1>
+    <p>Abar ki aki kotha bolbo. Ki likhbo vai, bad dau. Google ache to. Google thekei pore kichu copy kore dibo. Ami to abar google copy korte khub valo pari.</p>
+    <a href="#" class="ctn">Learn mone</a>
+    </div>
+  </section>
+  
+  <section class="tours">
+    <div class="row">
+      <div class="col content-col">
+        <h1 class="tours-h1">The Upcoming Tours & Destinations</h1>
+        <div class="line"></div>
+        <p>Tours is a university town between France's Cher and Loire rivers. Once a Gallic-Roman settlement, today it's a university town and a traditional gateway for exploring the chateaux of the Loire Valley region. Major landmarks include the cathedral, Saint-Gatien, whose flamboyant Gothic facade is flanked by towers with 12th-century bases and Renaissance tops.GOOGLE THEKE COPY KORLAM.</p>
+        <a href="#" class="ctn">Learn More</a>
+      </div>
+      <div class="col img-col">
+        <div class="img-gal">
+          <img src="img3.png" alt="">
+          <img src="img4.png" alt="">
+          <img src="img5.png" alt="">
+          <img src="img6.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <p>Sutrapur,Bogura,Bangladesh| Email: sakhawatulislam18@gmail.com</p>
+    <p>copyright &copy; 2024 Adventure #Nabi</p>
+  </footer>
+  
+<script>
+  const menuBtn = document.querySelector('.menu-btn')
+  const navlinks = document.querySelector('.nav-links')
+  
+  menuBtn.addEventListener('click', function(){
+    navlinks.classList.toggle('mobile-menu')
+  })
+</script>
+</body>
+</html>
